@@ -1,5 +1,5 @@
 /**
- * @name Spotify Discord
+ * @name Spotify_Discord
  * @version 1.5.0
  * @description Combine Discord and Spotify into one
  * @author CapnKitten
@@ -35,7 +35,18 @@
 	--popout-radius: 7px;
 	--popout-radius-small: 3px; /*	-	*/
 
-	--input-color: #e0e0e0;
+  	--input-color: #5e5e5e;
+	--input-bg: #5e5e5e;
 	--input-text-color: #333;
 	--input-placeholder-color: #444;
+}
+
+/* CUSTOM SERVER TITLE BAR COLORS */
+
+.container-3w7J-x[aria-label*="BetterDiscord"]:before {
+	--title-custom: #3b77c4;
+}
+
+.container-3w7J-x[aria-label*="CapnKitten"]:before {
+	--title-custom: #184c88;
 }
