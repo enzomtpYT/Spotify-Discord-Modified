@@ -15,14 +15,17 @@
  */
 
 :root {
-	--accent-color: #1db954;
-	--accent-hover: #1ed760;
-	--accent-rgb: 29,185,84;
+	--accent-color: rgb(140, 68, 247);
+	--accent-hover: rgb(193, 70, 255);
+	/* --accent-color: #1db954;
+	--accent-hover: #1ed760; */
+	--green-360: rgb(114, 137, 218);
+	--accent-rgb: 140, 68, 247;
 	--accent-text-color: #fff; /*	-	*/
 
 	--chat-color: #121212;
 	--chat-box-color: #272727;
-	--sidebar-color: #000;
+	--sidebar-color: #212121;
 	--sidebar-panel: #090909; /*	-	*/
 
 	--title-bar: #212121;
@@ -42,37 +45,21 @@
 	--input-text-color: #333;
 	--input-placeholder-color: #444;
 
-	
+
 	--main-color: #090909;
-	--title-bar: #212121;
-	--bar-color: #181818;
-	--bar-border-color: #282828;
-	--bar-size: 90px;
-	--accent-rgb: 29,185,84;
-	--accent-hover: 30,215,96;
-	--accent-text-color: #fff;
-	--alt-accent: #5680d4;
+	--alt-accent: rgb(114, 137, 218);
 	--alt-accent-text-color: #fff;
 	--alert-color: #f04747;
 	--alert-hover: #ff4c4c;
-	--chat-color: #121212;
 	--server-list: var(--chat-color);
-	--sidebar-color: #121212;
-	--sidebar-panel: var(--main-color);
 	--card-color: rgba(255,255,255,0.05);
 	--card-color-hover: rgba(255,255,255,0.1);
 	--card-border: #333;
 	--card-radius: 4px;
-	--popout-color: #282828;
-	--popout-radius: 7px;
-	--popout-radius-small: 3px;
 	--menu-hover-color: rgba(255,255,255,0.1);
 	--menu-select-color: rgba(255,255,255,0.3);
 	--menu-border-color: rgba(255,255,255,0.1);
 	--menu-text-color: #b2b2b2;
-	--input-color: #e0e0e0;
-	--input-text-color: #333;
-	--input-placeholder-color: #444;
 	--input-radius: 22px;
 	--select-input-color: #363636;
 	--button-background: rgba(0,0,0,0.7);
@@ -83,8 +70,6 @@
 	--list-item-default: #212121;
 	--list-item-hover: #333;
 	--list-item-select: #5a5a5a;
-	--sticky-header: #181818;
-	--sticky-header-border: #303030;
 	--slider-color: #b3b3b3;
 	--slider-background: var(--menu-border-color);
 	--attachment-color: #272727;
@@ -1128,7 +1113,7 @@
   .form-3gdLxP .buttonWrapper-3YFQGJ:hover,
   .form-3gdLxP .InvisibleTyping-typingButton-invisibleTypingButton svg,
   .form-3gdLxP .InvisibleTyping-typingButton-invisibleTypingButton:hover:not(.InvisibleTyping-typingButton-disabled) svg {
-	color: var(--input-text-color);
+	color: rgb(255,255,255);
   }
   .form-3gdLxP .buttonWrapper-3YFQGJ:hover,
   .form-3gdLxP .InvisibleTyping-typingButton-invisibleTypingButton:hover:not(.InvisibleTyping-typingButton-disabled) svg {
@@ -1140,10 +1125,10 @@
   }
   
   .attachButton-_ACFSu .attachButtonPlus-3IYelE {
-	fill: rgb(var(--accent-rgb));
+	fill: rgb(255,255,255);
   }
   .attachButton-_ACFSu:hover .attachButtonPlus-3IYelE {
-	fill: rgb(var(--accent-hover));
+	fill: rgb(204, 204, 204);
 	transform: scale(1.1);
   }
   
