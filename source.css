@@ -13,7 +13,7 @@
   --alert-hover: #ff4c4c;
   --chat-color: #121212;
   --server-list: var(--chat-color);
-  --sidebar-color: #000;
+  --sidebar-color: #121212;
   --sidebar-panel: var(--main-color);
   --card-color: rgba(255,255,255,0.05);
   --card-color-hover: rgba(255,255,255,0.1);
